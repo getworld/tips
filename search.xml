@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[如何一键捐赠你的节点，及捐赠者权益]]></title>
+      <url>http://tips.getworld.in/2016/07/16/one-key-share-node/</url>
+      <content type="html"><![CDATA[<h2 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h2><p>为了进一步方便大家将自己多余的流量捐赠到GetWorld.in以便给更需要的人使用，我们开发一个一键安装脚本，通过执行该脚本，可以在不影响自己使用的情况下，将自己用于SS的VPS服务器多余的流量分享给更需要的人用于科研或学习。GetWorld.in所提供的服务仅用于科研和学习之用，所以相对来说流量消耗较少，欢迎您的捐赠。<br>分享节点后，你将获得以下权益：</p>
+<ul>
+<li><strong>捐赠用户的可用流量为所捐赠节点服务器的每月总流量</strong></li>
+<li><strong>捐赠用户将获得的邀请码个数 = (节点可用月数 / 3) * 5</strong></li>
+<li><strong>捐赠节点不再维护时，捐赠用户每月将比普通用户多获得所捐赠流量的10%的返还</strong></li>
+<li><strong>捐赠用户的账号永久有效（即无须每3个月签到一次也不会被禁用）</strong></li>
+<li><strong>捐赠用户将永久在致谢列表中给出，并可添加一个自己的外链</strong><a id="more"></a>
+捐赠节点的用户权益暂定如上，如有更好建议，欢迎补充。</li>
+</ul>
+<h2 id="捐赠方法"><a href="#捐赠方法" class="headerlink" title="捐赠方法"></a>捐赠方法</h2><h3 id="系统要求"><a href="#系统要求" class="headerlink" title="系统要求"></a>系统要求</h3><p>本程序在以下机器上测试有效：</p>
+<ul>
+<li>CentOS-6-x86</li>
+<li>CentOS-6-x86_64</li>
+<li>CentOS-7-x86</li>
+<li>CentOS-7-x86_64</li>
+<li>Fedora-23-x86_64</li>
+<li>Ubuntu-14.04-x86</li>
+<li>Ubuntu-14.04-x86_64</li>
+</ul>
+<p>当然未测试机型只要是Debian系或RPM系都可以试试，如果有问题再联系管理员。<br>运行前要求系统中不能存在其他ss服务端或客户端，所以强烈建议在运行以下代码前首先<strong>重新安装系统</strong>。<br>建议新安装的系统，如果内存大于128MB（包括128MB），都安装较新版本的64位系统，比如<code>CentOS-7-x86_64</code>或<code>Ubuntu-14.04-x86_64</code></p>
+<h3 id="运行命令"><a href="#运行命令" class="headerlink" title="运行命令"></a>运行命令</h3><p>在新安装的系统上，使用root用户运行以下命令即可完成捐赠。运行命令前需要联系管理员（getworld#qq.com，将#换成@）或者联系群管理员开通权限，否则可能会捐赠失败。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget --no-check-certificate https://github.com/blueyi/ss_go_mu_getworld_install/raw/master/getworld_common_dep_install.py  -O /tmp/getworld_common_dep_install.py &amp;&amp; python /tmp/getworld_common_dep_install.py</div></pre></td></tr></table></figure></p>
+<p>如果使用的是搬瓦工，可以在后台<code>Root shell - advanced</code>中全选以上命令粘贴到运行框中，然后点击<code>Execute</code>即可。记得先在后台重装系统<br>捐赠之后请勿重装系统，如需要重装系统，请联系管理员禁用该节点<br>运行命令后如提示<strong>Install Success!</strong>则表示捐赠成功<br>如果遇到安装失败请将运行输出反馈在评论中，或加QQ群497034204</p>
+<h3 id="更新节点信息"><a href="#更新节点信息" class="headerlink" title="更新节点信息"></a>更新节点信息</h3><p>上述命令运行成功后请告知管理员将你计划捐赠节点的时长、<a href="http://ss.getworld.in/thanks" target="_blank" rel="external">致谢列表</a>中想要填入信息、以及你在getworld.in中的注册邮箱，以便管理员为您更新信息。</p>
+<p>###您的捐赠将使很多人受益，他们可以将更多的时间和精力用于科研和学习。</p>
+<p>###代表GetWorld.in的所有用户，真心感谢您的捐赠！</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[问题解答]]></title>
+      <url>http://tips.getworld.in/2015/10/19/Question/</url>
+      <content type="html"><![CDATA[<h1 id="有什么问题可以在本帖下面提问或加QQ群497034204"><a href="#有什么问题可以在本帖下面提问或加QQ群497034204" class="headerlink" title="有什么问题可以在本帖下面提问或加QQ群497034204"></a>有什么问题可以在本帖下面提问或加QQ群497034204</h1><p><strong>谢谢</strong>  </p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[获取搬瓦工VPS购买折扣码的方法]]></title>
+      <url>http://tips.getworld.in/2015/10/17/How-to-get-bwgPromocode/</url>
+      <content type="html"><![CDATA[<p>搬瓦工VPS购买时可以通过输入折扣码来获取优惠购买的权限，很多人可能还不知道如何获取实时折扣码。如果你还不知道如何购买，可以先看这里<a href="http://tips.getworld.in/2015/10/17/How-to-buy-bandwagon/">http://tips.getworld.in/2015/10/17/How-to-buy-bandwagon/</a>。如果已经购买，还不知道如何一键安装ss，可以看这里<a href="http://tips.getworld.in/2015/10/17/How-to-install-ss-in-bwg/">http://tips.getworld.in/2015/10/17/How-to-install-ss-in-bwg/</a>。如果已经安装还没有客户端软件，可以看这里<a href="http://tips.getworld.in/2015/10/17/ss-down/">http://tips.getworld.in/2015/10/17/ss-down/</a>。如果想要现在优惠购买，那就看这里：<br><a id="more"></a></p>
+<p>点击<a href="https://bandwagonhost.com/aff.php?aff=4377" target="_blank" rel="external">bandwagonhost</a>进入<a href="https://bandwagonhost.com/aff.php?aff=4377" target="_blank" rel="external">bandwagonhost</a>首页，在搬瓦工的任意页面空白处，鼠标右键，查看源代码，如下图所示:<br><img src="promo.jpg" alt="">  </p>
+<p>其中Try this promo code: 后面的就是折扣码，该折扣码为小额折扣码，5%以内,每次刷新网页后，查看到的优惠码都不一样，可以多次尝试寻找大额优惠码。如果你找到较大折扣优惠码，可以通过回复本帖与大家分享哦。大额折扣码近期可能会放出，放出后会第一时间公布在QQ群497034204<br>特别说明，使用他人提供的一切SS账号，你的所以上网记录、输入和输出数据包都可以在别人的服务端完全查看到，包括你为账号设置的密码等。所以建议不要使用公共账号进行密码相关的敏感操作。  </p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[shadowsocks各版本下载【长期更新...】]]></title>
+      <url>http://tips.getworld.in/2015/10/17/ss-down/</url>
+      <content type="html"><![CDATA[<p>shadowsocks网上的各版本下载链接都逐渐失效，这里将整理并更新shadowsocks各版本软件，资源全部来源于网络，版权归原作者所有。<br>当前可下载的版本包括： windows版本的shadowsocks, linux版本的shadowsocks, MAC OS版本的shadowsocks, 安装版本的shadowsocks, iphone(iOS)版本的shadowsocks。<br><a id="more"></a></p>
+<p><strong>windows版shadowsocks下载：</strong><a href="https://github.com/shadowsocks/shadowsocks-windows/releases/download/2.5.8/Shadowsocks-2.5.8.zip" target="_blank" rel="external">Shadowsocks-2.5.8.zip</a>  </p>
+<p><strong>Linux版shadowsocks下载：</strong><a href="https://github.com/shadowsocks/shadowsocks-go" target="_blank" rel="external">shadowsocks-go</a>  </p>
+<p><strong>MAC OS版shadowsocks下载：</strong><a href="https://github.com/shadowsocks/shadowsocks-iOS/releases/download/2.6.3/ShadowsocksX-2.6.3.dmg" target="_blank" rel="external">ShadowsocksX-2.6.3.dmg</a>  </p>
+<p><strong>安卓版shadowsocks下载：</strong><a href="https://github.com/shadowsocks/shadowsocks-android/releases/download/v2.8.2/shadowsocks-nightly-2.8.2.apk" target="_blank" rel="external">shadowsocks-nightly-2.8.2.apk</a>    </p>
+<p><strong>iOS版shadowsocks下载：</strong><a href="https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help" target="_blank" rel="external">shadowsocks-iOS</a>    </p>
+<p><strong>openwrt版shadowsocks下载：</strong><a href="https://github.com/shadowsocks/openwrt-shadowsocks" target="_blank" rel="external">openwrt-shadowsocks</a>    </p>
+<p>建议收藏本站，本站内容将长期更新。。。  </p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[搬瓦工一键安装shadowsocks图文教程]]></title>
+      <url>http://tips.getworld.in/2015/10/17/How-to-install-ss-in-bwg/</url>
+      <content type="html"><![CDATA[<p><strong>如果还没有购买的，或者无法购买的，或者想要优惠购买的看这里</strong><br><a href="http://tips.getworld.in/2015/10/17/How-to-buy-bandwagon/">http://tips.getworld.in/2015/10/17/How-to-buy-bandwagon/</a></p>
+<p>搬瓦工价格介绍点击<a href="http://t.cn/RyqGj5p" target="_blank" rel="external">http://t.cn/RyqGj5p</a><br>或者点击这里<a href="https://bandwagonhost.com/aff.php?aff=4536" target="_blank" rel="external">https://bandwagonhost.com/aff.php?aff=4536</a></p>
+<p>购买后就直接看下面的图文就可以了<br><a id="more"></a></p>
+<p><img src="1.jpg" alt=""><br><img src="2.jpg" alt=""><br><img src="3.jpg" alt=""><br><img src="4.jpg" alt="">  </p>
+<p><strong>设置好以后请记住你的IP 跟协议类型 端口 密码</strong><br><img src="5.jpg" alt=""><br><img src="6.jpg" alt="">  </p>
+<p><strong>ss设置 设置好右下角有个小飞机的图标右键启用</strong><br><strong>PAC模式IP不变，全局代理ip会变成服务器IP</strong><br><img src="7.jpg" alt=""><br><img src="8.jpg" alt=""><br><img src="9.jpg" alt="">  </p>
+<p><strong>快速的去看世界吧</strong><br><img src="10.jpg" alt="">  </p>
+<p>SS各版本下载看这里:<a href="http://tips.getworld.in/2015/10/17/ss-down/">http://tips.getworld.in/2015/10/17/ss-down/</a><br>如果还没有购买的，或者无法购买的，或者想要优惠购买的看这里<br><a href="http://tips.getworld.in/2015/10/17/How-to-buy-bandwagon/">http://tips.getworld.in/2015/10/17/How-to-buy-bandwagon/</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[如何购买搬瓦工并跳过验证码-图文教程]]></title>
+      <url>http://tips.getworld.in/2015/10/17/How-to-buy-bandwagon/</url>
+      <content type="html"><![CDATA[<p>搬瓦工价格介绍点击<a href="http://t.cn/RyqGj5p" target="_blank" rel="external">http://t.cn/RyqGj5p</a><br>或者点击这里<a href="https://bandwagonhost.com/aff.php?aff=4377" target="_blank" rel="external">bandwagonhost</a><br>如果你在注册时不出验证码，请往下看。<br><a id="more"></a>  </p>
+<h2 id="为什么选择搬瓦工"><a href="#为什么选择搬瓦工" class="headerlink" title="为什么选择搬瓦工?"></a>为什么选择搬瓦工?</h2><p>搬瓦工(bandwagonhost)是IT7旗下的便宜VPS主机品牌，很多用户在选择这款低价VPS的时候都担心是否稳定、甚至是否跑路等问题。但到目前为止，可以看到从原先的佛罗里达、凤凰城，以及新上线的洛杉矶数据中心，而且会不断的补货情况看，当然也包括用户的使用稳定性。我们很多用户都用来搭建”微P恩”上网工具，比购买软件方便和稳定性好很多。<br>关键是它提供一键搭建各种让你走出去看看的方法，世界这么大，我们当然要去看看啦。  </p>
+<h2 id="为什么新用户直接点击Register无法注册搬瓦工？"><a href="#为什么新用户直接点击Register无法注册搬瓦工？" class="headerlink" title="为什么新用户直接点击Register无法注册搬瓦工？"></a>为什么新用户直接点击Register无法注册搬瓦工？</h2><p>对于新注册BandwagonHost账户还是有一定技巧的，如果我们从官方网站注册账户一直提示验证码不正确，因采用的远程谷歌验证码机制，网速等问题一直加载不了，所以我们无法在正常注册账户的时候看到验证信息，所以无法注册新账户。其实我们可以通过购买BandwagonHost方案时候一并注册账户，注册过程只需要一个邮箱就可以，而且邮箱不需要验证激活。但建议验证激活，方便退款时使用。  </p>
+<h2 id="图文购买教程"><a href="#图文购买教程" class="headerlink" title="图文购买教程"></a>图文购买教程</h2><p>以下以当前最便宜的2.99/month为例的图文教程教你一步步来注册：<br>首先点击<a href="http://t.cn/RyqGj5p" target="_blank" rel="external">http://t.cn/RyqGj5p</a>进入官网首页<br>或者点击这里<a href="https://bandwagonhost.com/aff.php?aff=4377" target="_blank" rel="external">bandwagonhost</a><br><img src="1.jpg" alt="">  </p>
+<p><img src="2.jpg" alt="">  </p>
+<p><img src="3.jpg" alt=""><br>如果不知道如何获取当前优惠码，可以查看这里<a href="http://tips.getworld.in/2015/10/17/How-to-get-bwgPromocode/">http://tips.getworld.in/2015/10/17/How-to-get-bwgPromocode/</a>  </p>
+<p>注册搬瓦工账户需要用拼音或者英文，不要用中文汉字，这里需要注意几个问题，我们必须选择真实的国家地区，你地址可以乱写拼音，但你国家和地区不要乱选择，否则会出现欺诈订单无法付款。电话号码之类的信息可以随意写，姓名都可以随意，就是国家CHINA不要乱选择。  </p>
+<p><img src="4.jpg" alt="">   </p>
+<p><img src="5.jpg" alt="">  </p>
+<p><img src="6.jpg" alt="">  </p>
+<p><img src="7.jpg" alt="">  </p>
+<p><img src="8.jpg" alt="">  </p>
+<p>付款完毕之后，我们等待大概2分钟就可以看到BandwagonHost产品的PENDING状态变成ACTIVE激活。<br>然后进入控制面板，建议查看一下左侧的所有菜单，也许有些你不懂，但很多你会懂，需要的时候也可以知道去哪找。走出去看看的相关操作在左侧最下面哦！如果不会安装也可以点击这里<a href="http://tips.getworld.in/2015/10/17/How-to-install-ss-in-bwg/">http://tips.getworld.in/2015/10/17/How-to-install-ss-in-bwg/</a>  。<br>点击<a href="http://t.cn/RyqGj5p" target="_blank" rel="external">http://t.cn/RyqGj5p</a>进入官网首页<br>或者点击这里<a href="https://bandwagonhost.com/aff.php?aff=4377" target="_blank" rel="external">bandwagonhost</a></p>
+]]></content>
+    </entry>
+    
+  
+  
+</search>
